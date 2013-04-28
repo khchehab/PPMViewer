@@ -33,7 +33,7 @@ public class PPMViewer {
 		JMenu menu = new JMenu("File");
 		
 		//////////////////////////////////////////////////////////
-		// 					Load - Menu Item					//
+		// 	     	    Load - Menu Item			//
 		//////////////////////////////////////////////////////////
 		JMenuItem loadItem = new JMenuItem("Load");
 		loadItem.addActionListener(new ActionListener() {
@@ -61,7 +61,7 @@ public class PPMViewer {
 		menu.add(loadItem);
 		
 		//////////////////////////////////////////////////////////
-		// 					Save - Menu Item					//
+		// 	     	    Save - Menu Item			//
 		//////////////////////////////////////////////////////////
 		JMenuItem saveItem = new JMenuItem("Save");
 		saveItem.addActionListener(new ActionListener() {
@@ -97,7 +97,7 @@ public class PPMViewer {
 		//////////////////////////////////////////////////////////
 		
 		//////////////////////////////////////////////////////////
-		// 					Exit - Menu Item					//
+		// 	     	    Exit - Menu Item			//
 		//////////////////////////////////////////////////////////
 		JMenuItem exitItem = new JMenuItem("Exit");
 		exitItem.addActionListener(new ActionListener() {
@@ -111,7 +111,7 @@ public class PPMViewer {
 		menu.add(exitItem);
 		
 		//////////////////////////////////////////////////////////
-		// 					Add Menu to Menu Bar				//
+		// 	     	    Add Menu to Menu Bar		//
 		//////////////////////////////////////////////////////////
 		JMenuBar menuBar = new JMenuBar();
 		menuBar.add(menu);
