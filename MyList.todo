@@ -1,0 +1,12 @@
+The list of TODOs for the PPM Viewer & Editor application.
+
+	- Make use of polymorphism and inheritence, for exmaple make a base class called `Image` and have classes named after their image type inherit from it, and depening on the type of the image, use polymorphism to instantiate the new object. @prio(3)
+	- Handle null values or incorrect value by throwing exceptions @done
+	- Change all checked exceptions from throwing in the constructor/function header, to a try/catch block @done
+	- Develop this program to handle other image types, other than ppm but in the family of netpbm images @prio(3)
+	- Make use of multi-thread however, scanner is not multi-thread safe, so will need to change Scanner to BufferedReader which multi-thread safe. @prio(5)
+	- Be able to display the image on a window screen, without the need to save it to a png image @done
+	- Remove the since tags from the javadoc of functions, leave it in class javadoc only @prio(1)
+	- Save supports "gif", "png" and "jpg" for now, implement more image formats @prio(2)
+	- Check in pixels and gpixels and other base classes that take max value of color too, to check their importance, maybe remove them and keep it only in the image object itself for when representing in bufferedimage there you can set it or something @prio(2)
+	- Document the ui classes with javadoc @prio(1)
